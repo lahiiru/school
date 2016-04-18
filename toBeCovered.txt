@@ -63,7 +63,7 @@
 
 ------- Why symfony? --------------------------------------------------
 
-    Have you find it easy?
+    Have you found it easy?
 
 ------ Installing and configuring new bundles -------------------------
 
