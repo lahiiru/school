@@ -1,0 +1,20 @@
+Assumptions:
+	* one student only be in and must be in one class
+	* every student has a class
+	* teacher initially don't have a class
+
+Student:indexno
+	add new student to a class	std/add/name/indexno/icbc/gender/birthyear
+	remove student				std/remove/indexno
+	change student class		std/change/indexno/newclassid
+	view student info			std/view/indexno
+	view student list			std/view/all
+Class:classid
+	make new class				cls/add/name
+	view class info				cls/view/classid
+	view class list				cls/view/all
+Teacher:nic
+	add new teacher				tch/add/name/nic/gender/subject
+	change teacher class		tch/change/nic/newclassid
+	view teacher info			tch/view/nic
+	view teacher list			tch/view/list
